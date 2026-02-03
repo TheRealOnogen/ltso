@@ -1,6 +1,7 @@
-Windows 11/10 LTS O is a custom build of Windows
+# WIndows 11/10 LTS 0
+**Windows 11/10 LTS O** is a custom build of Windows
 
-What does LTS O mean?
+## What does LTS O mean?
 
 LTS O means Long Term Support by Onogen, this os is customized specifically to be
 
@@ -11,12 +12,12 @@ LTS O means Long Term Support by Onogen, this os is customized specifically to b
 5. No copilot or AI at all
 6. Edge fully removed except webview
 
-What i will NOT be doing
+## What i will NOT be doing
 
 1. Making LTS O build of an OS older than Windows 10
 2. Making custom builds for some people specifically
 3. Installing apps into the OS that some people don't need
 4. Fixing bugs that Microslop made
 
-You can post your suggestions on this github page.
+You can post your suggestions on this github's [issues tab](https://github.com/TheRealOnogen/ltso/issues).
 I will not reply to suggestions i specified i won't be doing.
