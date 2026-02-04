@@ -1,3 +1,5 @@
+WARNING: To boot in qemu on legacy bios you need to put the image first and then the drive you're gonna be installing to
+
 Windows 11/10 LTS O is a custom build of Windows
 
 What does LTS O mean?
