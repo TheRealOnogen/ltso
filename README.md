@@ -20,3 +20,9 @@ What i will NOT be doing
 
 You can post your suggestions on this github page.
 I will not reply to suggestions i specified i won't be doing.
+
+Tools used:
+
+Ventoy
+Rescuezilla 
+win11debloat 
