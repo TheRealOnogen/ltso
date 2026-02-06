@@ -1,5 +1,5 @@
-WARNING: To boot in qemu on legacy bios you need to put the image first and then the drive you're gonna be installing to
-WARNING: The drive you're installing it to must be 64GiB or larger, smaller drives may not work
+WARNING: To boot in qemu on legacy bios you need to put the image first and then the drive you're gonna be installing to (Windows only)
+WARNING: The drive you're installing it to must be 64GiB or larger, smaller drives may not work (Windows only)
 
 Windows 11/10 LTS O is a custom build of Windows
 
@@ -21,11 +21,30 @@ What i will NOT be doing
 3. Installing apps into the OS that some people don't need
 4. Fixing bugs that Microslop made
 
-You can post your suggestions on this github page.
+You can post your suggestions on this gitea page.
 I will not reply to suggestions i specified i won't be doing.
 
 Tools used:
 
 Ventoy
 Rescuezilla 
-win11debloat 
+win11debloat
+
+What is Arch LTS O?
+
+Arch LTS O is a custom Arch based distro, it has all the essentials and is meant to be arch for people whow want an easy install, it is not bloated, it includes
+
+1. Nano
+2. Ly
+3. KDE Plasma
+4. Firefox and Konsole
+5. NetworkManager
+6. iwd and dhcpcd (not enabled, there for people who wanna use shell with wifi)
+7. Grub Bootloader
+
+What i will NOT be doing
+
+1. Making builds for specific people
+2. Making LTS O builds of other distros
+3. Fixing bugs in the kernel
+4. Installing random packages
