@@ -1,6 +1,13 @@
 WARNING: To boot in qemu on legacy bios you need to put the image first and then the drive you're gonna be installing to (Windows only)
 WARNING: The drive you're installing it to must be 64GiB or larger, smaller drives may not work (Windows only)
 
+How to install:
+1. Boot from the img
+2. Press restore
+3. Select the partition named Ventoy
+4. Select Windows-XX(10 or 11)-LTS-O-(UEFI/Legacy)
+5. Select your drive 
+
 Windows 11/10 LTS O is a custom build of Windows
 
 What does LTS O mean?
