@@ -36,9 +36,9 @@ I will not reply to suggestions i specified i won't be doing.
 
 # Tools used:
 
-Ventoy
-Rescuezilla 
-win11debloat
+1. Ventoy
+2. Rescuezilla 
+3. win11debloat
 
 # What is Arch LTS O?
 
