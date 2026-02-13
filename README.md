@@ -45,7 +45,7 @@ I will not reply to suggestions i specified i won't be doing.
 Arch LTS O is a custom Arch based distro, it has all the essentials and is meant to be arch for people whow want an easy install, it is not bloated, it includes
 
 1. Nano
-2. Ly
+2. Ly (sddm on alpine)
 3. KDE Plasma
 4. Firefox and Konsole
 5. NetworkManager
