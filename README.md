@@ -1,5 +1,5 @@
 # WARNING: 
-To boot in **qemu on legacy bios** you need to put the **image first** and then the drive you're gonna be installing to (Windows only) and the drive you're installing it to must be **64GiB or larger**, smaller drives may not work (Windows only)
+To boot in **qemu on legacy bios** you need to put the **image first** and then the drive you're gonna be installing to and the drive you're installing it to must be **64GiB or larger** (20GiB or larger for linux), smaller drives may not work
 # WARNING:
 Once you boot into the OS, your partition may be smaller than your drive, you need to resize it for yourself, on windows you can use niubi partition manager, just diskmgr or other tool, on linux you can use gparted or some other tool. The job is up to you, i won't be answering issues regarding this
 
