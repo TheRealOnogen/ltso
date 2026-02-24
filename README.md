@@ -25,7 +25,7 @@ Arch:
 4. look for your OS partitions (should be 512mb boot, 8gb swap and rest is OS)
 5. mount /dev/(OS partition) /mnt
 6. mount /dev/(boot partition) /mnt/boot (also mount it in /mnt/boot/efi if on uefi)
-7. chroot /mnt (arch-chroot /mnt if using archiso)
+7. arch-chroot /mnt (if using other iso, you have to do the steps like in debian or alpine)
 8. grub-install --target=i386-pc /dev/(your drive) (or grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB if using uefi)
 9. grub-mkconfig -o /boot/grub/grub.cfg|
 
@@ -33,19 +33,23 @@ Debian:
 1. Boot from the img
 2. Launch terminal
 3. lsblk
-4. look for your OS partitions (should be 278mb boot, 4gb swap and rest is OS)
+4. look for your OS partitions (should be 300mb boot, 4gb swap and rest is OS)
 5. mount /dev/(OS partition) /mnt
 6. mount /dev/(boot partition) /mnt/boot (also mount it in /mnt/boot/efi if on uefi)
-7. chroot /mnt
-8. grub-install --target=i386-pc /dev/(your drive) (or grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB if using uefi)
-9. grub-mkconfig -o /boot/grub/grub.cfg
+7. mount --bind /dev /mnt/dev
+8. mount --bind /dev/pts /mnt/dev/pts
+9. mount --bind /proc /mnt/proc
+10. mount --bind /sys /mnt/sys (also mount --bind /sys/firmware/efi/efivars /mnt/sys/firmware/efi/efivars if using uefi)
+11. chroot /mnt
+12. grub-install --target=i386-pc /dev/(your drive) (or grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB if using uefi)
+13. grub-mkconfig -o /boot/grub/grub.cfg
 
 # How to install
 
 1. Boot from the img
 2. Press restore
 3. Select the partition named Ventoy
-4. Select `Windows-XX(10 or 11)-LTS-O-(UEFI/Legacy)`
+4. Select `Windows-XX(10 or 11)-LTS-O-(UEFI/Legacy)` or (Distro)-LTS-O-(UEFI/Legacy) for linux
 5. Select your drive 
 
 # About OSes
