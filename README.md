@@ -93,7 +93,7 @@ Arch LTS O is a custom Arch based distro, it has all the essentials and is meant
 
 # What i will NOT be doing
 
-1. Making builds for specific people
+1. Making builds for specific people (except if LTS O builds of a specific architecture, depends tho)
 2. Making LTS O builds of other distros
 3. Fixing bugs in the kernel
 4. Installing random packages
